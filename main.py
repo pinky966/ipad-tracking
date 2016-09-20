@@ -11,12 +11,12 @@ print (response.json())
 import json
 dict = response.json()
 
-# 4: Print out ALL categories that are in the dictionary
-# 5: Print out ALL categories WITH the time spent aggregated
+# 4: Print out ALL categories that are in the dictionary (categories in index 4)
+# 5: Print out ALL categories WITH the time spent aggregated (index 2 of each row is time in seconds)
 
 # 6: Above and Beyond: give an OPTION: print all sites with time spent aggregated
-# 7: make it alphabetical by site name
-# 8: give another option that will list most time spent first
+# 7: make it alphabetical by site name (sort index 3 of each row alphabetically)
+# 8: give another option that will list most time spent first (sort index 2 of each row, great to least)
 
 print("end")
 
